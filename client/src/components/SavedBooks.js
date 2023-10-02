@@ -2,8 +2,8 @@ import React from 'react';
 import { useQuery, useMutation } from '@apollo/client';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 
-import { GET_ME } from './queries';  // Adjust the path as necessary
-import { REMOVE_BOOK } from './mutations';  // Adjust the path as necessary
+import { GET_ME } from './queries'; 
+import { REMOVE_BOOK } from './mutations';  
 import Auth from '../utils/auth';
 
 const SavedBooks = () => {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 import { useMutation } from '@apollo/client';
-import { LOGIN_USER } from '../graphql/mutations';  // Corrected path to mutations.js
+import { LOGIN_USER } from '../graphql/mutations';  
 import Auth from '../utils/auth';
 
 

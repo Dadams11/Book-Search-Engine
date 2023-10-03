@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 import { useMutation } from '@apollo/client';
-import { LOGIN_USER } from './mutations';  // Adjust the path as needed
+import { LOGIN_USER } from '../graphql/mutations';  // Corrected path to mutations.js
 import Auth from '../utils/auth';
+
 
 const LoginForm = () => {
   const [userFormData, setUserFormData] = useState({ email: '', password: '' });
